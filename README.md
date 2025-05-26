@@ -1,5 +1,9 @@
 # Active-Stereovision-3D-Reconstruct
 
+# Authors
+- Sophie RUMEAU
+- Aubin SIONVILLE
+
 ## Project Purpose
 
 This project was developed as part of the "3D Imaging" course at Télécom Saint-Étienne.
@@ -94,10 +98,10 @@ This includes cropped images, phase maps, and depth maps for each object.
    The configuration will be updated automatically.  
    The results (cropped images, phase maps, depth maps) will be saved in the specified results folder, organized by fringe period and object name.
 
+**Note:** Replace all `YOUR_IMAGES_DIRECTORY` and `YOUR_RESULTS_DIRECTORY` placeholders in the configuration with your actual directories before running the project.
+
 ## Credits
 
 The `phase_unwrap_Ghiglia.m` function used for phase unwrapping is based on the article by Ghiglia and Romero (1994) and was adapted by Muhammad F. Kasim (University of Oxford, 2016).  
 Reference:  
 Ghiglia, D. C., & Romero, L. A. (1994). Robust two-dimensional weighted and unweighted phase unwrapping that uses fast transforms and iterative methods. *JOSA A*, 11(1), 107-117. [https://doi.org/10.1364/JOSAA.11.000107](https://doi.org/10.1364/JOSAA.11.000107)
-
-**Note:** Replace all `YOUR_IMAGES_DIRECTORY` and `YOUR_RESULTS_DIRECTORY` placeholders in the configuration with your actual directories before running the project.
